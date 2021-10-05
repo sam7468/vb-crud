@@ -15,4 +15,4 @@ MongoClient.connect(url, function (err, client) {
    });
  });
 
-//use insertOne for one document
+//use insertOne to add single document
