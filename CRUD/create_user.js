@@ -14,3 +14,5 @@ MongoClient.connect(url, function (err, client) {
      client.close();
    });
  });
+
+//use insertOne for one document

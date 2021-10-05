@@ -6,7 +6,7 @@ MongoClient.connect(url, function (err, client) {
    if (err) throw err;
 
    const db = client.db("user_managements");
-   db.collection("users").deleteOne({_id:"14"} ,function (err, result) {
+   db.collection("users").deleteOne({_id:"23"} ,function (err, result) {
      if (err) throw err;
      console.log("status: " + JSON.stringify(result));
      client.close();
